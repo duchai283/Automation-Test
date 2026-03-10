@@ -1,0 +1,16 @@
+{
+  "name": "automation-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright TypeScript end-to-end suite for Chronics.ai setup/settings flow",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "typescript": "^5.9.2"
+  }
+}
